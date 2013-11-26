@@ -2,12 +2,12 @@
 
 Summary:	Base functions for Bioconductor
 Name:		R-%{packname}
-Version:	2.18.0
+Version:	2.22.0
 Release:	1
 License:	Artistic 2.0
 Group:		Applications/Science
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	257ffbd8d658368656a1b6778fa38268
+# Source0-md5:	97b4dd96418b87b47d62c955d54924b7
 URL:		http://bioconductor.org/packages/release/bioc/html/Biobase.html
 BuildRequires:	R
 BuildRequires:	R-BiocGenerics >= 0.3.2
