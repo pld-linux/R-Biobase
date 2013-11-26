@@ -3,7 +3,7 @@
 Summary:	Base functions for Bioconductor
 Name:		R-%{packname}
 Version:	2.22.0
-Release:	1
+Release:	2
 License:	Artistic 2.0
 Group:		Applications/Science
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
@@ -44,7 +44,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/R/library/%{packname}/help/
 %{_libdir}/R/library/%{packname}/libs/
 %{_libdir}/R/library/%{packname}/NAMESPACE
-%{_libdir}/R/library/%{packname}/UnitTests/
 %{_libdir}/R/library/%{packname}/data
 %{_libdir}/R/library/%{packname}/scripts
 %{_libdir}/R/library/%{packname}/ExpressionSet
