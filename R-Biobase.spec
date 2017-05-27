@@ -3,7 +3,7 @@
 Summary:	Base functions for Bioconductor
 Name:		R-%{packname}
 Version:	2.22.0
-Release:	2
+Release:	3
 License:	Artistic 2.0
 Group:		Applications/Science
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
